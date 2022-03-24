@@ -1,8 +1,8 @@
-package Ships;
+package ships;
 
-public class BattleShip implements Ship
+public class Destroyer implements Ship
 {
-     int size = 4;
+    int size = 2;
 
     @Override
     public int get_size() {
@@ -20,8 +20,9 @@ public class BattleShip implements Ship
     }
 
     @Override
-    public String toString() {
-        return "BattleShip{" +
+    public String toString()
+    {
+        return "Destroyer{" +
                 "size=" + size +
                 '}';
     }

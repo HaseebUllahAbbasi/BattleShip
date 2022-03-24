@@ -1,4 +1,4 @@
-package Ships;
+package ships;
 
 import com.sun.deploy.security.SelectableSecurityManager;
 import javafx.scene.control.Alert;

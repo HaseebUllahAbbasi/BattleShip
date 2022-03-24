@@ -1,6 +1,6 @@
-package Main;
+package main;
 
-import Ships.*;
+import ships.*;
 import javafx.scene.control.Button;
 import javafx.scene.paint.Paint;
 

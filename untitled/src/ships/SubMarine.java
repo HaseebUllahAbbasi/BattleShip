@@ -1,8 +1,8 @@
-package Ships;
+package ships;
 
-public class Carrier implements Ship
+public class SubMarine implements Ship
 {
-    public int size = 5;
+    int size = 3;
 
     @Override
     public int get_size() {
@@ -11,17 +11,17 @@ public class Carrier implements Ship
 
     @Override
     public boolean decrease_size() {
-        if(size>0)
-        {
-            size--;
-            return true;
-        }
-        return false;
+         if(size>0)
+         {
+             size--;
+             return true;
+         }
+         return false;
     }
 
     @Override
     public String toString() {
-        return "Carrier{" +
+        return "SubMarine{" +
                 "size=" + size +
                 '}';
     }

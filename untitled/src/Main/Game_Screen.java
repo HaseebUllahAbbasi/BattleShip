@@ -1,6 +1,6 @@
-package Main;
+package main;
 
-import Ships.*;
+import ships.*;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
